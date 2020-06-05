@@ -67,6 +67,7 @@ gitalk:
   repo: HushTheBlock.github.io    #仓库名称
   owner: HushTheBlock    #github用户名
   admin: HushTheBlock
+  id: 'window.location.pathname'
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
