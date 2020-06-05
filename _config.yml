@@ -60,15 +60,29 @@ kramdown:
 # disqus_username: qiubaiying
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 66f5e50771dc5759bd36                            #生成的clientID
-  clientSecret: a5ae8e0b42552c9cc7d39ad498e9770a28c83048    #生成的clientSecret
-  repo: HushTheBlock.github.io    #仓库名称
-  owner: HushTheBlock    #github用户名
-  admin: HushTheBlock
-  id: 'window.location.pathname'
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# gitalk:
+#   enable: true    #是否开启Gitalk评论
+#   clientID: 66f5e50771dc5759bd36                            #生成的clientID
+#   clientSecret: a5ae8e0b42552c9cc7d39ad498e9770a28c83048    #生成的clientSecret
+#   repo: HushTheBlock.github.io    #仓库名称
+#   owner: HushTheBlock    #github用户名
+#   admin: HushTheBlock
+#   id: 'window.location.pathname'
+#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+gitment:
+  enable: true
+  mint: true
+  count: true
+  lazy: false
+  cleanly: false
+  language:
+  github_user: HushTheBlock
+  github_repo: HushTheBlock.github.io
+  client_id: 66f5e50771dc5759bd36
+  client_secret: a5ae8e0b42552c9cc7d39ad498e9770a28c83048
+  proxy_gateway:
+  redirect_protocol:
 
 
 # 统计
