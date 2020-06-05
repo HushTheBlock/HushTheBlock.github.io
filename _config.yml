@@ -70,19 +70,15 @@ kramdown:
 #   id: 'window.location.pathname'
 #   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
-gitment:
-  enable: true
-  mint: true
-  count: true
-  lazy: false
-  cleanly: false
-  language:
-  github_user: HushTheBlock
-  github_repo: HushTheBlock.github.io
-  client_id: 66f5e50771dc5759bd36
-  client_secret: a5ae8e0b42552c9cc7d39ad498e9770a28c83048
-  proxy_gateway:
-  redirect_protocol:
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: d18b343dd9c7ca49518a                            #生成的clientID
+  clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
+  repo: klovien.github.io    #仓库名称
+  owner: klovien    #github用户名
+  admin: klovien
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
