@@ -29,7 +29,9 @@ Let $\mathbf{M}=\mathbf{W} \circ \left(\mathbf{R}-\mathbf{U}^{\top} \mathbf{V}\r
 $$
 \partial\left\|\mathbf{W} \circ \left(\mathbf{R}-\mathbf{U}^{\top} \mathbf{V}\right)\right\|_ {F}^{2}=\partial \mathbf{M}:\mathbf{M}=2\mathbf{M}:d\mathbf{M},
 $$
+
 then, we plug $\mathbf{M}=\mathbf{W} \circ \left(\mathbf{R}-\mathbf{U}^{\top} \mathbf{V}\right)$ into the above and acquire:
+
 $$
 \begin{aligned}
 \partial\left\|\mathbf{W} \circ \left(\mathbf{R}-\mathbf{U}^{\top} \mathbf{V}\right)\right\|_ {F}^{2}&=2\mathbf{M}:\mathbf{W}\circ d\left(\mathbf{R}-\mathbf{U}^{\top} \mathbf{V}\right)\\&=2(\mathbf{W}\circ \mathbf{M}):-d\left(\mathbf{U}^{\top} \mathbf{V}\right)\\&=-2(\mathbf{W}\circ \mathbf{M}):\left(d\mathbf{U}^{\top} \cdot \mathbf{V} + \mathbf{U}^{\top}\cdot d\mathbf{V}\right)\\&=-2(\mathbf{W}\circ \mathbf{M})\mathbf{V}^{\top}:d\mathbf{U}^{\top} +(-2)\mathbf{U}(\mathbf{W}\circ \mathbf{M}): d\mathbf{V}\\&=-2\mathbf{V}(\mathbf{W}\circ \mathbf{M})^{\top}:d\mathbf{U}-2\mathbf{U}(\mathbf{W}\circ \mathbf{M}): d\mathbf{V}.
@@ -37,6 +39,7 @@ $$
 $$
 
 Up to now, we've gained the total derivative of $\left\|\mathbf{W} \circ \left(\mathbf{R}-\mathbf{U}^{\top} \mathbf{V}\right)\right\|_ {F}^{2}$, and it is easy to get partial derivatives as follows:
+
 $$
 \frac{\partial\left\|\mathbf{W} \circ \left(\mathbf{R}-\mathbf{U}^{\top} \mathbf{V}\right)\right\|_ {F}^{2}}{\partial \mathbf{U}}=-2\mathbf{V}(\mathbf{W}\circ \mathbf{M})^{\top}=-2\mathbf{V}\left(\mathbf{W}\circ\mathbf{W}\circ\mathbf{R}\right)^{\top}+2\mathbf{V}(\mathbf{W}\circ\mathbf{W}\circ\mathbf{U}^{\top}\mathbf{V})^{\top},
 $$
